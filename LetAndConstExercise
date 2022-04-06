@@ -1,0 +1,12 @@
+const PI = 3.14
+if (PI = true){
+    PI = 42
+}
+
+//the difference between var and let is that let is blockscoped and can not be redeclared
+
+//the difference between var and const is that const is also block scoped and it cannot be reassigned OR redeclared
+
+//the difference between let and const is that you can reassign let, so it is useful for instances where you know you will need to update the assignment to the variable. 
+
+//hoisting is a process through which javascript will run the declarations before they are initialized, and before anything else. this only applies with VAR, Let and Const do not allow this to happen.
